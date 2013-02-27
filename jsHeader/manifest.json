@@ -1,0 +1,26 @@
+{
+    "extension": 
+    {
+        "name": "jsHeader",
+        "version": "1.0.0",
+        "description": "add header to js files",
+        "icon": "js.png",
+        "senders": [
+                    {
+                        "location": "studioToolbar", 
+						"actionName": "jsHeader"
+                    }
+        ],
+        "actions": [
+                    {
+                        "name": "jsHeader",
+                        "title": "addHeaderToJsFile",
+						"targets":    [
+            { "uti": "*.js" }
+        ]
+						
+                    }
+        ],
+        "lifetime": "action_lifetime"
+    }
+}
