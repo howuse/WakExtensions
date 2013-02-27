@@ -1,0 +1,24 @@
+{
+    "extension": 
+    {
+        "name": "Browser",
+        "version": "1.0.0",
+        "description": "launchBrowser",
+        "icon": "br.png",
+        "senders": [
+                    {
+                        "location": "studioToolbar", 
+						"actionName": "launch"
+                    }
+        ],
+        "actions": [
+                    {
+                        "name": "launch",
+                        "title": "B",
+						
+						
+                    }
+        ],
+        "lifetime": "application_lifetime"
+    }
+}
