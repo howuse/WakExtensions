@@ -46,5 +46,13 @@
 	<util>https://github.com/hmkcode/Spring-Framework/tree/master/spring-mvc-json,http://codetutr.com/2013/04/09/spring-mvc-easy-rest-based-json-services-with-responsebody/</util>
 	</body
 	https://github.com/stevehanson/spring-mvc-validation
+	WAM : Web Access Manager
+Il s’agit d’un Reverse Proxy SSO
+Reverse Proxy : il permet d’appeler des applications s’exécutant sur différents serveurs et ayant des adresses d’accès différentes à partir d’une même nom de domaine et port
+SSO Single Sign On :  Il permet de propager les informations sur l’utilisateur connecté à l’ensemble des applications
+Pourquoi l’utiliser en développement ?
+En mode développement, chaque application s’exécute sur une port différent. Hors, si on essaie d’accéder à une application un faisant un appel JSON à partir d’une page obtenue via un autre port (et/ou domaine), une erreur apparait (Cross Domain Request)
+Pour permettre de réaliser des développements avec des utilisateurs connecté
+
 	
 </html>
