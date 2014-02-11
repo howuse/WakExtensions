@@ -53,6 +53,7 @@ SSO Single Sign On :  Il permet de propager les informations sur l’utilisateur
 Pourquoi l’utiliser en développement ?
 En mode développement, chaque application s’exécute sur une port différent. Hors, si on essaie d’accéder à une application un faisant un appel JSON à partir d’une page obtenue via un autre port (et/ou domaine), une erreur apparait (Cross Domain Request)
 Pour permettre de réaliser des développements avec des utilisateurs connecté
-
+http://stackoverflow.com/questions/19812043/call-remote-asmx-service-by-jquery-always-fail
+http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/
 	
 </html>
